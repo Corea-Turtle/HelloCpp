@@ -5,7 +5,7 @@
 int _tmain(int argc, _TCHAR * argv[])
 {
     std::cout << 10 << std::endl;
-    std::cout << 10U << std::endl;
+    std::cout << 10U << std::endl;  // unsigned int 로 해석 해주면 됨
     std::cout << "Hello World!" << std::endl;
     std::string strData = "Test String";
     std::cout << "Sample Data" << std::endl;
