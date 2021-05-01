@@ -16,4 +16,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//참조에 의한 인수 전달이다
 	TestFunc(nData);
 	cout << nData << endl;
+	
+	return 0;
 }
