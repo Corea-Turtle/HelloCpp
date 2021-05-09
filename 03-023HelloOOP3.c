@@ -18,8 +18,8 @@ int main(void)
 {
 	USERDATA user = { 20,"철수", PrintData};
 	//printf("%d, %s\n",user.nAge,user.szName); 1단계
-	//PrintData(&user)							2단계
-	PrintData(&user);						//  3단계
+	//PrintData(&user)			2단계
+	user.Print(&user);		//  3단계
 		
 	return 0;
 }
