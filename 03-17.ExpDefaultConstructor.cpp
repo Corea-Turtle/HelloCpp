@@ -20,3 +20,5 @@ int _tmain(int argc, _TCHAR*argv[])
   
   return 0;
 }
+
+//14줄에 생성자 정의 대신 9줄에 CTest(void) = default; 이렇게 선언과 정의를 동시에 할 수 있다.
