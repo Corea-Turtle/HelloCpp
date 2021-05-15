@@ -25,3 +25,5 @@ int _tmain(int argc, _TCHAR*argv[])
 }
 
 //20번쨰 줄에 data.m_nData = 10 는 private이므로 허용되지 않는 문법이다.
+//멤버 함수의 경우에는 private 멤버에 접근하는 것이 자유롭다.
+//생상자를 생성하기 전에 public 선언을 해주지 않으면 생성자 또한 private으로 설정된다.
